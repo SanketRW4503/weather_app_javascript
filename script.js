@@ -14,7 +14,6 @@ async function search_city(l_data) {
             let json = await res.json()
             if (json) {
                 set_Data(json)
-                console.log(json)
             }
         } catch (error) {
             swal('Error','Enter Valid City Name !','error');
